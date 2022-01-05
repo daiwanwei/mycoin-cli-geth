@@ -31,3 +31,7 @@ $ go build -o main .
 $ ./main 
 
 ```
+####編譯合約
+```bash
+$ abigen --abi=data/abi/MyCoin.json --bin=data/bin/MyCoin.bin  --pkg=mycoin --out=contracts/mycoin/mycoin.go
+```
